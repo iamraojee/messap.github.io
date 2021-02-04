@@ -2,7 +2,7 @@
 
 //database_connection.php
 
-$connect = new PDO("mysql:host=localhost;dbname=chat;charset=utf8mb4", "root", "");
+$connect = new PDO("mysql:host=localhost;remotemysql.com=EYkMccsrdC;charset=utf8mb4", "EYkMccsrdC", "3nlczbMrJV");
 
 date_default_timezone_set('Asia/Karachi');
 
