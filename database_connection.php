@@ -2,8 +2,7 @@
 
 //database_connection.php
 
-$connect = new PDO("mysql:host=localhost;remotemysql.com=EYkMccsrdC;charset=utf8mb4", "EYkMccsrdC", "3nlczbMrJV");
-
+$connect = new PDO("mysql:host=remotemysql.com;dbname=EYkMccsrdC;charset=utf8mb4", "EYkMccsrdC", "3nlczbMrJV");
 date_default_timezone_set('Asia/Karachi');
 
 function fetch_user_last_activity($user_id, $connect)
